@@ -1,0 +1,55 @@
+name: Apache Log4j
+description: Apache Log4j is a Java-based logging utility. It is part of the Apache Logging Services project and provides a flexible logging framework for Java applications.
+image: https://logging.apache.org/log4j/2.x/images/logo.png
+url: https://logging.apache.org/log4j/2.x/
+created: 2024-01-15 00:00:00+00:00
+modified: 2024-01-15 00:00:00+00:00
+specificationVersion: '0.18'
+tags:
+- logging
+- java
+- apache
+- monitoring
+- debugging
+apis:
+- name: Log4j Core API
+  description: The core logging API for Log4j 2.x that provides the main logging functionality
+  image: https://logging.apache.org/log4j/2.x/images/logo.png
+  humanURL: https://logging.apache.org/log4j/2.x/
+  baseURL: https://logging.apache.org/log4j/2.x/
+  tags:
+  - logging
+  - core
+  - java
+  properties:
+  - type: Documentation
+    url: https://logging.apache.org/log4j/2.x/manual/
+  - type: API Documentation
+    url: https://logging.apache.org/log4j/2.x/javadoc.html
+  - type: GitHub Repository
+    url: https://github.com/apache/logging-log4j2
+  - type: Download
+    url: https://logging.apache.org/log4j/2.x/download.html
+  - type: Maven Repository
+    url: https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
+  - type: Security Advisories
+    url: https://logging.apache.org/log4j/2.x/security.html
+  - type: Issue Tracker
+    url: https://issues.apache.org/jira/projects/LOG4J2
+  - type: Mailing List
+    url: https://logging.apache.org/log4j/2.x/mail-lists.html
+  - type: Migration Guide
+    url: https://logging.apache.org/log4j/2.x/manual/migration.html
+  - type: Performance
+    url: https://logging.apache.org/log4j/2.x/performance.html
+  - type: Configuration
+    url: https://logging.apache.org/log4j/2.x/manual/configuration.html
+  - type: Plugins
+    url: https://logging.apache.org/log4j/2.x/manual/plugins.html
+  - type: License
+    url: https://www.apache.org/licenses/LICENSE-2.0
+maintainers:
+- name: Apache Logging Services Project
+  email: log4j-user@logging.apache.org
+  url: https://logging.apache.org/
+include: []
