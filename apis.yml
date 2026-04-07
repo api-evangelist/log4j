@@ -7,11 +7,11 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Logging
-  - Java
   - Apache
-  - Monitoring
   - Debugging
+  - Java
+  - Logging
+  - Monitoring
 url: https://raw.githubusercontent.com/api-evangelist/log4j/refs/heads/main/apis.yml
 created: '2024-01-15'
 modified: '2026-03-16'
@@ -24,9 +24,9 @@ apis:
       functionality for Java applications.
     humanURL: https://logging.apache.org/log4j/2.x/
     tags:
-      - Logging
       - Core
       - Java
+      - Logging
     properties:
       - type: Documentation
         url: https://logging.apache.org/log4j/2.x/manual/
