@@ -60,6 +60,10 @@ apis:
       - type: SourceCode
         url: https://github.com/apache/logging-log4j2
 common:
+  - type: VulnerabilityDisclosure
+    url: security/log4j-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/log4j-domain-security.yml
   - type: Website
     url: https://logging.apache.org/log4j/2.x/
   - type: Documentation
