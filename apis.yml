@@ -72,6 +72,12 @@ apis:
       - type: SourceCode
         url: https://github.com/apache/logging-log4j2
 common:
+  - type: IssueTracker
+    url: https://github.com/apache/logging-log4j2/issues
+  - type: Releases
+    url: https://github.com/apache/logging-log4j2/releases
+  - type: CodeOfConduct
+    url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
   - type: VulnerabilityDisclosure
     url: security/log4j-vulnerability-disclosure.yml
   - type: DomainSecurity
