@@ -27,6 +27,14 @@ tags:
   - Library
   - Logging
   - Monitoring
+  - Open-Source
+tags_raw:
+  - Apache
+  - Debugging
+  - Java
+  - Library
+  - Logging
+  - Monitoring
   - Open Source
 url: https://raw.githubusercontent.com/api-evangelist/log4j/refs/heads/main/apis.yml
 created: '2024-01-15'
@@ -41,6 +49,10 @@ apis:
       backing implementation such as Log4j Core.
     humanURL: https://logging.apache.org/log4j/2.x/manual/api.html
     tags:
+      - Facade
+      - Java
+      - Logging
+    tags_raw:
       - API
       - Facade
       - Java
