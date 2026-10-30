@@ -1,4 +1,4 @@
-# Apache Log4j (log4j)
+# Apache Log4j
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,80 +66,104 @@
 
 Apache Log4j is a versatile, industrial-grade Java logging framework composed of an API, its implementation, and components to assist deployment for various use cases. It is part of the Apache Logging Services project. Log4j is a Java library distributed as Maven artifacts and is consumed via its Java API rather than over the network; no public HTTP/REST surface is published.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/log4j/refs/heads/main/apis.yml)
+**Areas:** Apache · Debugging · Java · Library · Logging · Monitoring · Open Source
 
-## Scope
+## Apache Log4j on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** Open Source
+Everything profiled for Apache Log4j is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/log4j/](https://apis.io/providers/log4j/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (2)
 
-- Apache
-- Debugging
-- Java
-- Library
-- Logging
-- Monitoring
-- Open Source
+- [Log4j API](https://apis.io/apis/log4j/log4j-api/) — The logging facade providing a feature-rich Java interface for application logging. Applications code against this stable API while delegating to a backing…
+- [Log4j Core](https://apis.io/apis/log4j/log4j-core/) — The reference implementation of the Log4j API providing appenders, layouts, filters, lookups and configuration that route log events to consoles, files,…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2024-01-15
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (2)
 
-### Log4j API
-The logging facade providing a feature-rich Java interface for application logging. Applications code against this stable API while delegating to a backing implementation such as Log4j Core.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://logging.apache.org/log4j/2.x/manual/api.html](https://logging.apache.org/log4j/2.x/manual/api.html)
+- [Log4J Domain Security](https://apis.io/security/log4j/log4j-domain-security/)
+- [Log4J Vulnerability Disclosure](https://apis.io/security/log4j/log4j-vulnerability-disclosure/)
 
-#### Tags
+#### Plans and pricing (1)
 
-- API
-- Facade
-- Java
-- Logging
+Published plans, tiers and prices.
 
-#### Properties
+- [Log4J Plans Pricing](https://apis.io/plans/log4j/log4j-plans-pricing/)
 
-- [Documentation](https://logging.apache.org/log4j/2.x/manual/api.html)
-- [Reference](https://logging.apache.org/log4j/2.x/javadoc.html)
-- [SourceCode](https://github.com/apache/logging-log4j2)
+#### Rate limits (1)
 
-### Log4j Core
-The reference implementation of the Log4j API providing appenders, layouts, filters, lookups and configuration that route log events to consoles, files, databases, network endpoints and more.
+Published request limits.
 
-**Human URL:** [https://logging.apache.org/log4j/2.x/manual/configuration.html](https://logging.apache.org/log4j/2.x/manual/configuration.html)
+- [Log4J Rate Limits](https://apis.io/rate-limits/log4j/log4j-rate-limits/)
 
-#### Tags
+#### FinOps (1)
 
-- Core
-- Implementation
-- Java
-- Logging
+What the API costs to run, by operation.
 
-#### Properties
+- [Log4J Finops](https://apis.io/finops/log4j/log4j-finops/)
 
-- [Documentation](https://logging.apache.org/log4j/2.x/manual/configuration.html)
-- [Reference](https://logging.apache.org/log4j/2.x/javadoc.html)
-- [SourceCode](https://github.com/apache/logging-log4j2)
+## Where to find this API
 
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://logging.apache.org/log4j/2.x/)
 - [Documentation](https://logging.apache.org/log4j/2.x/manual/)
-- [GettingStarted](https://logging.apache.org/log4j/2.x/manual/getting-started.html)
+- [Getting started](https://logging.apache.org/log4j/2.x/manual/getting-started.html)
 - [Security](https://logging.apache.org/security.html)
-- [ReleaseNotes](https://logging.apache.org/log4j/2.x/release-notes.html)
-- [Performance](https://logging.apache.org/log4j/2.x/performance.html)
-- [SourceCode](https://github.com/apache/logging-log4j2)
-- [License](https://www.apache.org/licenses/LICENSE-2.0)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 17.2** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 39.5 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/log4j/](https://apis.io/providers/log4j/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apache Log4j: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/log4j/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
